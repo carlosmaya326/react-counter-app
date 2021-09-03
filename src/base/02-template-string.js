@@ -4,10 +4,10 @@ const apellido = 'Maya';
 //const nombreCompleto = nombre + ' ' + apellido;
 const nombreCompleto = `${nombre} ${apellido}`;
 
-console.log(nombreCompleto);
+// console.log(nombreCompleto);
 
-function getSaludo() {
+export function getSaludo(nombre = 'Carlos') {
 	return 'Hola ' + nombre;
 }
 
-console.log(`Esta es un texto: ${ getSaludo(nombreCompleto) }`)
+// console.log(`Esta es un texto: ${ getSaludo(nombreCompleto) }`)
